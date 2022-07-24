@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box
+}
+
+body{
+    display: flex;
+    background-image: url(https://source.unsplash.com/random/?landscape);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cartao{
+    background-color: #0b0c0d;
+    opacity: 0.8;
+    color: white;
+    padding: 2rem;
+    max-width: 420px;
+    width: 100%;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem
+}
+
+.pesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button{
+    margin: 0 0.5rem;
+    border: none;
+    border-radius: 2rem;
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+    background-color: #202124;
+    color: white;   
+    opacity: 0.9;
+}
+
+button:hover{
+    background-color: black;
+}
+
+.barra_pesquisa{
+    height: 2rem;
+    width: 20rem;
+    margin: 0;
+    border-radius: 1.5rem;
+    border: none;
+    background-color: #202124;
+    opacity: 0.9;
+    color: white;
+    padding: 0.8rem;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: large;
+}
+
+h1{
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+div p{
+    margin: 0;
+    font-family: inherit;
+}
+
+.descricao_geral{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.texto_descricao{
+    text-transform: capitalize;
+    margin-left: 8px;    
+}
+
+.dados_texto.carregar{
+    visibility: hidden;
+}
+
+.dados_texto.carregar:after{
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+
+}
+

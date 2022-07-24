@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Weather App</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <script src="./script.js" defer></script>
+    </head>
+    <body>
+        <div class="cartao">
+            <div class="pesquisa">
+                <input type="text" class="barra_pesquisa" id="barra_pesquisa" placeholder="  Pesquisar">
+                <button> <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg></button>
+            </div>
+            <div class="dados_texto carregar">
+                <h2 class="texto_cidade">Temperatura em</h2>
+                <h1 class="texto_temperatura">22°C</h1>
+                <div class="descricao_geral">
+                    <img src="http://openweathermap.org/img/wn/03n.png" alt="" class="icone_descricao">
+                    <p class="texto_descricao">Ensolarado</p>
+                </div>
+                <p class="texto_humidade">Humidade: 9%</p>
+                <p class="texto_velocidade">Vento: 8km/h</p>
+            </div>
+        </div>
+    </body>
+</html>
